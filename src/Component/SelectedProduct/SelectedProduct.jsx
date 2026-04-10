@@ -3,6 +3,10 @@ import RenderSelectedProduct from './RenderSelectedProduct';
 const SelectedProduct = ({ selectedProducts, setSelectedProducts, total, setTotal }) => {
     // console.log(selectedProducts)
 
+    const handleCheckOutBtn = () => {
+        setSelectedProducts([])
+    }
+
     return (
         <div className='border border-gray-200 rounded-4xl shadow m-5 p-5'>
 
@@ -30,7 +34,12 @@ const SelectedProduct = ({ selectedProducts, setSelectedProducts, total, setTota
                         </div>
                         <div className='flex justify-between items-center my-10 mx-8'>
                             <h3 className='text-2xl font-semibold'>Total :</h3>
-                            <h3 className='text-3xl font-semibold'>${total}</h3>
+                            <h3 className='text-3xl font-semibold'>${total.toFixed(2)}</h3>
+                        </div>
+                        <div className='mx-8 my-5'>
+                            <button 
+                              onClick={handleCheckOutBtn}
+                              className=' btn btn-primary w-full rounded-4xl'>Proceed To Checkout</button>
                         </div>
                     </div>
             }
