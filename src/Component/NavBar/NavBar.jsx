@@ -37,7 +37,7 @@ const navItems = [
     }
 ];
 
-const NavBar = () => {
+const NavBar = ({ selectedProducts }) => {
     const [open , setOpen] = useState(false)
     const navLinks = navItems.map(item => <NavLink key={item.id} item={item}></NavLink> )
     return (
@@ -59,7 +59,7 @@ const NavBar = () => {
                 </div>
                 <div className="flex justify-center items-center gap-3 md:gap-6">
                     <div>
-                        <p className={`bg-red-500 rounded-full text-white text-center text-sm `}>3</p>
+                        <p className={`bg-red-500 rounded-full text-white text-center text-sm ${selectedProducts.length == 0 && `hidden`} `}>{selectedProducts.length}</p>
                         <BsCart3></BsCart3>
                     </div>
                     <button>Login</button>

@@ -5,7 +5,7 @@
         "description": "Create professional resumes with modern templates and ATS optimization.",
         "price": 9.99,
         "period": "monthly",
-        "tag": "popular",
+        "tag": "Popular",
         "tagType": "popular",
         "features": [
             "100+ templates",
@@ -20,7 +20,7 @@
         "description": "Generate high-quality blog posts, ads, and social media content using AI.",
         "price": 19.99,
         "period": "monthly",
-        "tag": "best seller",
+        "tag": "Best seller",
         "tagType": "best seller",
         "features": [
             "AI writing assistant",
@@ -35,12 +35,13 @@
         "description": "Design stunning logos in minutes with customizable templates.",
         "price": 14.99,
         "period": "one-time",
-        "tag": "new",
+        "tag": "New",
         "tagType": "new",
         "features": [
             "500+ logo templates",
             "Custom colors",
-            "High-res download"
+            "High-res download",
+            "Colourfull Logo"
         ],
         "icon": "https://i.ibb.co.com/PGV6bB60/logo-maker.png"
     },
@@ -50,7 +51,7 @@
         "description": "Plan and automate your social media posts across multiple platforms.",
         "price": 12.99,
         "period": "monthly",
-        "tag": "popular",
+        "tag": "Popular",
         "tagType": "popular",
         "features": [
             "Auto scheduling",
@@ -65,12 +66,13 @@
         "description": "Build responsive websites بسهولة with drag-and-drop tools.",
         "price": 49.99,
         "period": "yearly",
-        "tag": "best seller",
+        "tag": "Best seller",
         "tagType": "best seller",
         "features": [
             "Drag & drop builder",
             "Custom domains",
-            "SEO tools"
+            "SEO tools",
+            "Customize Design"
         ],
         "icon": "https://i.ibb.co.com/rRb04qzS/website-builder-3.jpg"
     },
@@ -80,12 +82,14 @@
         "description": "Create and send email campaigns with advanced targeting.",
         "price": 15.99,
         "period": "monthly",
-        "tag": "popular",
+        "tag": "Popular",
         "tagType": "popular",
         "features": [
             "Email templates",
             "Automation",
-            "Subscriber analytics"
+            "Subscriber analytics",
+            "100+ templates",
+            "Analytics dashboard"
         ],
         "icon": "https://i.ibb.co.com/VkRv3pT/Email-Marketing-Software-Tools.jpg"
     },
@@ -95,12 +99,13 @@
         "description": "All-in-one design solution for social posts, banners, and ads.",
         "price": 29.99,
         "period": "yearly",
-        "tag": "new",
+        "tag": "New",
         "tagType": "new",
         "features": [
             "1000+ assets",
             "Drag & drop editor",
-            "Export in multiple formats"
+            "Export in multiple formats",
+            "Automation"
         ],
         "icon": "https://i.ibb.co.com/RGDcpgwC/garphic-design.jpg"
     },
@@ -110,7 +115,7 @@
         "description": "Analyze your website and improve search engine rankings.",
         "price": 11.99,
         "period": "monthly",
-        "tag": "best seller",
+        "tag": "Best seller",
         "tagType": "best seller",
         "features": [
             "Keyword tracking",
@@ -125,7 +130,7 @@
         "description": "Securely store and manage your passwords across devices.",
         "price": 7.99,
         "period": "yearly",
-        "tag": "popular",
+        "tag": "Popular",
         "tagType": "popular",
         "features": [
             "Encrypted storage",
