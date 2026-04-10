@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Resume Builder Pro",
+        "description": "Create professional resumes with modern templates and ATS optimization.",
+        "price": 9.99,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "100+ templates",
+            "ATS optimization",
+            "Export to PDF"
+        ],
+        "icon": "https://i.ibb.co.com/fdz3F0s2/resume-builder.webp"
+    },
+    {
+        "id": 2,
+        "name": "AI Content Writer",
+        "description": "Generate high-quality blog posts, ads, and social media content using AI.",
+        "price": 19.99,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "AI writing assistant",
+            "SEO optimization",
+            "Multi-language support"
+        ],
+        "icon": "https://i.ibb.co.com/q3BjwscP/ai-content-writer.webp"
+    },
+    {
+        "id": 3,
+        "name": "Logo Maker",
+        "description": "Design stunning logos in minutes with customizable templates.",
+        "price": 14.99,
+        "period": "one-time",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "500+ logo templates",
+            "Custom colors",
+            "High-res download"
+        ],
+        "icon": "https://i.ibb.co.com/PGV6bB60/logo-maker.png"
+    },
+    {
+        "id": 4,
+        "name": "Social Media Scheduler",
+        "description": "Plan and automate your social media posts across multiple platforms.",
+        "price": 12.99,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "Auto scheduling",
+            "Multi-platform support",
+            "Analytics dashboard"
+        ],
+        "icon": "https://i.ibb.co.com/nMzW8QRK/Social-Media-Scheduling-Tools.png"
+    },
+    {
+        "id": 5,
+        "name": "Website Builder",
+        "description": "Build responsive websites بسهولة with drag-and-drop tools.",
+        "price": 49.99,
+        "period": "yearly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "Drag & drop builder",
+            "Custom domains",
+            "SEO tools"
+        ],
+        "icon": "https://i.ibb.co.com/rRb04qzS/website-builder-3.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Email Marketing Tool",
+        "description": "Create and send email campaigns with advanced targeting.",
+        "price": 15.99,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "Email templates",
+            "Automation",
+            "Subscriber analytics"
+        ],
+        "icon": "https://i.ibb.co.com/VkRv3pT/Email-Marketing-Software-Tools.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Graphic Design Toolkit",
+        "description": "All-in-one design solution for social posts, banners, and ads.",
+        "price": 29.99,
+        "period": "yearly",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "1000+ assets",
+            "Drag & drop editor",
+            "Export in multiple formats"
+        ],
+        "icon": "https://i.ibb.co.com/RGDcpgwC/garphic-design.jpg"
+    },
+    {
+        "id": 8,
+        "name": "SEO Analyzer",
+        "description": "Analyze your website and improve search engine rankings.",
+        "price": 11.99,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "Keyword tracking",
+            "Site audit",
+            "Competitor analysis"
+        ],
+        "icon": "https://i.ibb.co.com/x8MhhJVc/seo-analyger.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Password Manager",
+        "description": "Securely store and manage your passwords across devices.",
+        "price": 7.99,
+        "period": "yearly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "Encrypted storage",
+            "Auto-fill",
+            "Cross-device sync"
+        ],
+        "icon": "https://i.ibb.co.com/yFXyqx2g/password-manager.webp"
+    }
+]
