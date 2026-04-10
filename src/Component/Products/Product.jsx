@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Feature from './Feature';
 
-const Product = ({ product, selectedProducts, setSelectedProducts }) => {
+const Product = ({ product, selectedProducts, setSelectedProducts, total, setTotal }) => {
     // console.log(product)
 
     const [isSelected, setIsSelected] = useState(false);
@@ -9,6 +9,7 @@ const Product = ({ product, selectedProducts, setSelectedProducts }) => {
     const handleCardBtn = () => {
         setIsSelected(true)
         setSelectedProducts([...selectedProducts, product])
+        setTotal(total + product.price)
     }
 
     const { name, description, price, period, tag, features, icon } = product

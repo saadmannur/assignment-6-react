@@ -9,6 +9,8 @@ const Products = ({ productsPromise, selectedProducts, setSelectedProducts }) =>
 
     const [btnType , setBtnType] = useState("products");
 
+    const [total, setTotal] = useState(0);
+
     return (
         <div className='container mx-auto my-10'>
             <div className='text-center space-y-5'>
@@ -37,6 +39,8 @@ const Products = ({ productsPromise, selectedProducts, setSelectedProducts }) =>
                                 product={product}
                                 selectedProducts={selectedProducts}
                                 setSelectedProducts={setSelectedProducts}
+                                total={total}
+                                setTotal={setTotal}
                             ></Product>)
                         }
                     </div> :
@@ -44,6 +48,8 @@ const Products = ({ productsPromise, selectedProducts, setSelectedProducts }) =>
                         <SelectedProduct
                             selectedProducts={selectedProducts}
                             setSelectedProducts={setSelectedProducts}
+                            total={total}
+                            setTotal={setTotal}
                         ></SelectedProduct>
                     </div>
             }

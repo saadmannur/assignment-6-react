@@ -1,13 +1,14 @@
 import { Trash2 } from 'lucide-react';
 import React from 'react';
 
-const RenderSelectedProduct = ({ selectedProduct, selectedProducts, setSelectedProducts }) => {
+const RenderSelectedProduct = ({ selectedProduct, selectedProducts, setSelectedProducts, total, setTotal }) => {
     // console.log(selectedProduct)
     const { name, price, icon } = selectedProduct
 
     const handleDeleteBtn = () => {
         const filteredSelectedProducts = selectedProducts.filter(p => p.id !== selectedProduct.id );
         setSelectedProducts(filteredSelectedProducts)
+        setTotal(total - price)
     }
 
     return (

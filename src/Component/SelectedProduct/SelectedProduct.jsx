@@ -1,6 +1,6 @@
 import RenderSelectedProduct from './RenderSelectedProduct';
 
-const SelectedProduct = ({ selectedProducts, setSelectedProducts }) => {
+const SelectedProduct = ({ selectedProducts, setSelectedProducts, total, setTotal }) => {
     // console.log(selectedProducts)
 
     return (
@@ -23,8 +23,14 @@ const SelectedProduct = ({ selectedProducts, setSelectedProducts }) => {
                                     selectedProduct={selectedProduct}
                                     selectedProducts={selectedProducts}
                                     setSelectedProducts={setSelectedProducts}
+                                    total={total}
+                                    setTotal={setTotal}
                                 ></RenderSelectedProduct>)
                             }
+                        </div>
+                        <div className='flex justify-between items-center my-10 mx-8'>
+                            <h3 className='text-2xl font-semibold'>Total :</h3>
+                            <h3 className='text-3xl font-semibold'>${total}</h3>
                         </div>
                     </div>
             }
