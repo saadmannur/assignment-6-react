@@ -31,7 +31,7 @@ function App() {
       <NavBar
         selectedProducts={selectedProducts}
       ></NavBar>
-      {/* <Banner></Banner>
+      <Banner></Banner>
       <RatingSection></RatingSection>
       <Suspense fallback={<div className='text-center my-6'><span className="loading loading-bars loading-xl"></span></div>}>
         <Products
@@ -46,7 +46,7 @@ function App() {
           pricingDataPromise={pricingDataPromise}
         ></PricingState>
       </Suspense>
-      <ExploreSection></ExploreSection> */}
+      <ExploreSection></ExploreSection>
       <Footer></Footer>
     </>
   )

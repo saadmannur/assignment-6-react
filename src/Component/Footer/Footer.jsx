@@ -4,8 +4,8 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-        <div className='bg-[#101727] text-white px-48 pt-30'>
-            <div className='grid grid-cols-6 gap-12 items-stretch pb-20 border-b border-gray-400'>
+        <div className='bg-[#101727] text-white px-20 md:px-48 pt-10 md:pt-30'>
+            <div className='grid grid-cols-2 md:grid-cols-6 gap-12 items-stretch pb-20 border-b border-gray-400'>
                 <div className='col-span-2'>
                     <h2 className='text-4xl font-bold mb-5'>DigiTools</h2>
                     <p className='text-gray-400'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-between items-center py-10'>
+            <div className='md:flex justify-between items-center py-10'>
                 <p className='text-gray-400'><small>© 2026 DigiTools. All rights reserved.</small></p>
                 <div className='flex justify-between items-center gap-5 text-sm text-gray-400'>
                     <p>Privacy Policy</p>
