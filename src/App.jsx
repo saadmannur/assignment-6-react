@@ -6,6 +6,7 @@ import RatingSection from './Component/RatingSection/RatingSection'
 import Products from './Component/Products/Products'
 import StepsSection from './Component/StepsSection/StepsSection'
 import PricingState from './Component/PricingState/PricingState'
+import ExploreSection from './Component/ExploreSection/ExploreSection'
 
 const fetchProducts = async () => {
   const res = (await fetch("data.json")).json();
@@ -44,6 +45,7 @@ function App() {
           pricingDataPromise={pricingDataPromise}
         ></PricingState>
       </Suspense>
+      <ExploreSection></ExploreSection>
     </>
   )
 }

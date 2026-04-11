@@ -23,7 +23,7 @@ const RenderPricingData = ({data}) => {
                     ></RenderPricingFeature> )
                 }
             </ul>
-            <button className={`btn text-white ${isMostPopular && `bg-linear-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent`} rounded-4xl font-bold ${isMostPopular || `bg-linear-to-r from-blue-500 to-purple-700`}`}>{buttonText}</button>
+            <button className={`btn text-purple-600 text-lg rounded-4xl font-semibold bg-white ${isMostPopular || `bg-linear-to-r from-blue-500 to-purple-700 text-white`}`}>{buttonText}</button>
         </div>
     );
 };
