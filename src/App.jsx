@@ -7,6 +7,7 @@ import Products from './Component/Products/Products'
 import StepsSection from './Component/StepsSection/StepsSection'
 import PricingState from './Component/PricingState/PricingState'
 import ExploreSection from './Component/ExploreSection/ExploreSection'
+import Footer from './Component/Footer/Footer'
 
 const fetchProducts = async () => {
   const res = (await fetch("data.json")).json();
@@ -30,7 +31,7 @@ function App() {
       <NavBar
         selectedProducts={selectedProducts}
       ></NavBar>
-      <Banner></Banner>
+      {/* <Banner></Banner>
       <RatingSection></RatingSection>
       <Suspense fallback={<div className='text-center my-6'><span className="loading loading-bars loading-xl"></span></div>}>
         <Products
@@ -45,7 +46,8 @@ function App() {
           pricingDataPromise={pricingDataPromise}
         ></PricingState>
       </Suspense>
-      <ExploreSection></ExploreSection>
+      <ExploreSection></ExploreSection> */}
+      <Footer></Footer>
     </>
   )
 }
