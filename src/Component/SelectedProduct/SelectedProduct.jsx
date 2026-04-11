@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import RenderSelectedProduct from './RenderSelectedProduct';
 
 const SelectedProduct = ({ selectedProducts, setSelectedProducts, total, setTotal }) => {
@@ -5,6 +6,7 @@ const SelectedProduct = ({ selectedProducts, setSelectedProducts, total, setTota
 
     const handleCheckOutBtn = () => {
         setSelectedProducts([])
+        toast.warn("All products remove from Cart ")
     }
 
     return (

@@ -32,6 +32,7 @@ const Products = ({ productsPromise, selectedProducts, setSelectedProducts }) =>
             </div>
             {
                 btnType == "products" ?
+
                     <div className='grid grid-cols-1 m-4 md:grid-cols-3 gap-10 items-stretch'>
                         {
                             products.map(product => <Product
@@ -44,6 +45,7 @@ const Products = ({ productsPromise, selectedProducts, setSelectedProducts }) =>
                             ></Product>)
                         }
                     </div> :
+                    
                     <div>
                         <SelectedProduct
                             selectedProducts={selectedProducts}

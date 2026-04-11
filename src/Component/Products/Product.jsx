@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Feature from './Feature';
+import { toast } from 'react-toastify';
 
 const Product = ({ product, selectedProducts, setSelectedProducts, total, setTotal }) => {
     // console.log(product)
@@ -10,6 +11,7 @@ const Product = ({ product, selectedProducts, setSelectedProducts, total, setTot
         setIsSelected(true)
         setSelectedProducts([...selectedProducts, product])
         setTotal(total + product.price)
+        toast.success(`${product.name} is added to Cart`)
     }
 
     const { name, description, price, period, tag, features, icon } = product

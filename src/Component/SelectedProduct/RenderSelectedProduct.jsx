@@ -1,5 +1,6 @@
 import { Trash2 } from 'lucide-react';
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const RenderSelectedProduct = ({ selectedProduct, selectedProducts, setSelectedProducts, total, setTotal }) => {
     // console.log(selectedProduct)
@@ -9,6 +10,7 @@ const RenderSelectedProduct = ({ selectedProduct, selectedProducts, setSelectedP
         const filteredSelectedProducts = selectedProducts.filter(p => p.id !== selectedProduct.id );
         setSelectedProducts(filteredSelectedProducts)
         setTotal(total - price)
+        toast.warn(`${name} is remove from Cart`)
     }
 
     return (
